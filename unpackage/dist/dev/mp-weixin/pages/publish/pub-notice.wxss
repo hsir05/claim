@@ -1,0 +1,31 @@
+
+.image {
+	width: 100rpx;
+}
+.demo {
+	background: #FFF;
+	padding: 20rpx;
+}
+.demo-border{
+	border-bottom: 1rpx solid #F4F5F6;
+	margin-bottom: 5px;
+}
+.del-wrop{
+	position: relative;
+	display: inline-block;
+	padding: 15rpx;
+}
+.del{
+	width: 35rpx;
+	height: 35rpx;
+	lighting-color: 35rpx;
+	background-color: #DD524D;
+	color: white;
+	font-size: 20rpx;
+	text-align: center;
+	border-radius: 5rpx;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+

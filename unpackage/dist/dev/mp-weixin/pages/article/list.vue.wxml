@@ -1,0 +1,1 @@
+<import src="/components/uni-card.vue.wxml" /><template name="724f669f"><view class="_view 724f669f"><template wx:key="item.id" is-full="true" data="{{...$root['0'], ...$root[$kk+'724f669f-0-'+index],$root}}" is="57d43fae" wx:for="{{result}}" wx:for-index="index" wx:for-item="item"></template></view></template>

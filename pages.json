@@ -1,0 +1,92 @@
+{
+    "pages" : [
+        // pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+// 		{
+// 			"path" : "pages/article/list",
+// 			"style" : {
+// 				"navigationBarTitleText" : "失物招领",
+// 				"app-plus" : {
+// 					"titleNView" : {
+// 						"buttons" : [
+// 							{
+// 								"text" : "\ue534",
+// 								"fontSrc" : "/static/uni.ttf",
+// 								"fontSize" : "22px",
+// 								"color" : "#999999"
+// 							}
+// 						]
+// 					}
+// 				}
+// 			}
+// 		},
+       {
+            "path" : "pages/article/list",
+            "style" : {
+                "navigationBarTitleText" : "失物招领"
+            }
+        },
+        {
+            "path" : "pages/publish/publish",
+            "style" : {
+                "navigationBarTitleText" : "发布"
+            }
+        },
+		{
+		    "path" : "pages/notices/list",
+		    "style" : {
+		        "navigationBarTitleText" : "寻物启事"
+		    }
+		},
+        {
+            "path" : "pages/publish/pub-article",
+            "style" : {
+                "navigationBarTitleText" : "发布招领启事"
+            }
+        },
+        {
+            "path" : "pages/publish/pub-notice",
+            "style" : {
+                "navigationBarTitleText" : "发布寻物启事"
+            }
+        },
+        {
+            "path" : "pages/notices/details",
+            "style" : {}
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "Hello uniapp",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8",
+        "mp-alipay" : {
+            "titleBarColor" : "#FFFFFF"
+        }
+    },
+    "tabBar" : {
+        "color" : "#7A7E83",
+        "selectedColor" : "#007AFF",
+        "borderStyle" : "black",
+        "backgroundColor" : "#F8F8F8",
+        "list" : [
+            {
+                "pagePath" : "pages/article/list",
+                "iconPath" : "static/component.png",
+                "selectedIconPath" : "static/componentHL.png",
+                "text" : "失物招领"
+            },
+            {
+                "pagePath" : "pages/notices/list",
+                "iconPath" : "static/api.png",
+                "selectedIconPath" : "static/apiHL.png",
+                "text" : "寻物启事"
+            },
+            {
+                "pagePath" : "pages/publish/publish",
+                "iconPath" : "static/template.png",
+                "selectedIconPath" : "static/templateHL.png",
+                "text" : "发布"
+            }
+        ]
+    }
+}

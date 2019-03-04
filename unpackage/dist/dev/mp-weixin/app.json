@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/article/list",
+    "pages/publish/publish",
+    "pages/notices/list",
+    "pages/publish/pub-article",
+    "pages/publish/pub-notice",
+    "pages/notices/details"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Hello uniapp",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/article/list",
+        "iconPath": "static/component.png",
+        "selectedIconPath": "static/componentHL.png",
+        "text": "失物招领"
+      },
+      {
+        "pagePath": "pages/notices/list",
+        "iconPath": "static/api.png",
+        "selectedIconPath": "static/apiHL.png",
+        "text": "寻物启事"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "iconPath": "static/template.png",
+        "selectedIconPath": "static/templateHL.png",
+        "text": "发布"
+      }
+    ]
+  }
+}
