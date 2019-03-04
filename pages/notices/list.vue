@@ -11,13 +11,21 @@
 			:content="item.articleDesc"
 			:imgList="item.articlePhoto">
 		</uni-card>
+		<view class="pagin">
+			<uni-pagination 
+				show-icon="true" 
+				total="30" 
+				current="2">
+			</uni-pagination>
+		</view>
 	</view>
 </template>
 
 <script>
 	import uniCard from "@/components/uni-card.vue"
+	import uniPagination from "@/components/uni-pagination.vue"
 	export default {
-		components: {uniCard},
+		components: {uniCard,uniPagination},
 		data() {
 			return {
 				result: [
@@ -39,5 +47,9 @@
 </script>
 
 <style lang="scss">
-
+.pagin{
+	background-color: white;
+	padding: 10upx 0;
+	margin: 20upx 0;
+}
 </style>

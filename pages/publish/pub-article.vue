@@ -111,7 +111,6 @@
 					{name:"articleDesc", checkType : "string", checkRule:"1,30", errorMsg:"请填写物品描述"}, 
 					{name:"contactsName", checkType : "string", checkRule:"1,10", errorMsg:"请填写联系人"},
 					{name:"contactsPhone", checkType : "phoneno", checkRule:"11", errorMsg:"请填写正确格式的联系方式"},
-
 				];
 				//进行表单检查
 				var formData = e.detail.value;

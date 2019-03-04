@@ -122,7 +122,6 @@ var graceChecker = __webpack_require__(/*! ../../common/graceChecker.js */ "E:\\
       { name: "contactsName", checkType: "string", checkRule: "1,10", errorMsg: "请填写联系人" },
       { name: "contactsPhone", checkType: "phoneno", checkRule: "11", errorMsg: "请填写正确格式的联系方式" }];
 
-
       //进行表单检查
       var formData = e.detail.value;
       var checkRes = graceChecker.check(formData, rule);

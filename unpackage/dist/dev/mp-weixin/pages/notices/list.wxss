@@ -24,26 +24,6 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.desc-wrop {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: left;
-  -webkit-justify-content: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.desc-wrop .desc-img {
-    width: 33%;
-    height: 100px;
-}
 .pagin {
   background-color: white;
   padding: 10rpx 0;

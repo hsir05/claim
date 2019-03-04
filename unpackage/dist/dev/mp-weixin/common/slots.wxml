@@ -1,1 +1,4 @@
+<import src="/components/uni-card.vue.wxml" />
+<import src="/components/uni-pagination.vue.wxml" />
+<import src="/components/uni-icon/uni-icon.vue.wxml" />
 

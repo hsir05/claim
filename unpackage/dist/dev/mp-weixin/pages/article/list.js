@@ -25,9 +25,17 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 
 
-var _uniCard = _interopRequireDefault(__webpack_require__(/*! @/components/uni-card.vue */ "E:\\uni\\city_dynamic\\cal\\components\\uni-card.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
+
+
+
+
+
+
+
+var _uniCard = _interopRequireDefault(__webpack_require__(/*! @/components/uni-card.vue */ "E:\\uni\\city_dynamic\\cal\\components\\uni-card.vue"));
+var _uniPagination = _interopRequireDefault(__webpack_require__(/*! @/components/uni-pagination.vue */ "E:\\uni\\city_dynamic\\cal\\components\\uni-pagination.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
 {
-  components: { uniCard: _uniCard.default },
+  components: { uniCard: _uniCard.default, uniPagination: _uniPagination.default },
   data: function data() {
     return {
       result: [
@@ -116,21 +124,39 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "view",
-    _vm._l(_vm.result, function(item, index) {
-      return _c("uni-card", {
-        key: item.id,
-        attrs: {
-          "is-full": "true",
-          title: item.articleName,
-          extra: "发布时间:" + item.createTime,
-          note: "捡到时间:" + item.lostTime,
-          lostLocation: item.lostLocation,
-          content: item.articleDesc,
-          imgList: item.articlePhoto,
-          mpcomid: "724f669f-0-" + index
-        }
-      })
-    })
+    [
+      _vm._l(_vm.result, function(item, index) {
+        return _c("uni-card", {
+          key: item.id,
+          attrs: {
+            "is-full": "true",
+            title: item.articleName,
+            extra: "发布时间:" + item.createTime,
+            note: "捡到时间:" + item.lostTime,
+            lostLocation: item.lostLocation,
+            content: item.articleDesc,
+            imgList: item.articlePhoto,
+            mpcomid: "724f669f-0-" + index
+          }
+        })
+      }),
+      _c(
+        "view",
+        { staticClass: "pagin" },
+        [
+          _c("uni-pagination", {
+            attrs: {
+              "show-icon": "true",
+              total: "30",
+              current: "2",
+              mpcomid: "724f669f-1"
+            }
+          })
+        ],
+        1
+      )
+    ],
+    2
   )
 }
 var staticRenderFns = []
